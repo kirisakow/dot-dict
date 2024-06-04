@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "dot-dict"
+version = "0.1.0"
+description = "A dictionary that's recursively navigable with dots, not brackets."
+authors = ["Kiril Isakov <kirix.isakov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
