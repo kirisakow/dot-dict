@@ -6,9 +6,16 @@ A dictionary that's recursively navigable with dots, not brackets.
 ```bash
 git clone https://github.com/kirisakow/dot-dict.git
 
+cd dot-dict
+
+poetry install
+```
+```bash
 cd your-project
 
-poetry install --editable ../rel/path/to/dot-dict/
+poetry add --editable ../rel/path/to/dot-dict/
+
+poetry install
 ```
 
 ### Usage examples:
